@@ -1,0 +1,146 @@
+@import "normalize";
+
+@import "settings";
+// @import 'foundation/components/grid';
+// @import 'foundation/components/accordion';
+// @import 'foundation/components/alert-boxes';
+// @import 'foundation/components/block-grid';
+// @import 'foundation/components/breadcrumbs';
+// @import 'foundation/components/button-groups';
+// @import 'foundation/components/buttons';
+// @import 'foundation/components/clearing';
+// @import 'foundation/components/dropdown';
+// @import 'foundation/components/dropdown-buttons';
+// @import 'foundation/components/flex-video';
+// @import 'foundation/components/forms';
+// @import 'foundation/components/icon-bar';
+// @import 'foundation/components/inline-lists';
+// @import 'foundation/components/joyride';
+// @import 'foundation/components/keystrokes';
+// @import 'foundation/components/labels';
+// @import 'foundation/components/magellan';
+// @import 'foundation/components/orbit';
+// @import 'foundation/components/pagination';
+// @import 'foundation/components/panels';
+// @import 'foundation/components/pricing-tables';
+// @import 'foundation/components/progress-bars';
+// @import 'foundation/components/range-slider';
+// @import 'foundation/components/reveal';
+// @import 'foundation/components/side-nav';
+// @import 'foundation/components/split-buttons';
+// @import 'foundation/components/sub-nav';
+// @import 'foundation/components/switches';
+// @import 'foundation/components/tables';
+// @import 'foundation/components/tabs';
+// @import 'foundation/components/thumbs';
+// @import 'foundation/components/tooltips';
+// @import 'foundation/components/top-bar';
+// @import 'foundation/components/type';
+// @import 'foundation/components/offcanvas';
+// @import 'foundation/components/visibility';
+
+
+/* select the body tag */
+body {
+    margin: 0;
+}
+/* select all the tags <section> */
+section {
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+/* select all the tags that have
+        class="technologies"
+        or even class="technologies some-other-class" 
+        or even class="some-other-class technologies some-third-class"
+*/
+.SERVICES {
+    background-color: aliceblue;
+}
+.schedule {
+    background-color: tomato;
+}
+.curriculum {
+    background-color: rgba(0, 255, 0, 0.5);
+}
+/* select all the UL elements that are anywhere insde a NAV element */
+nav {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin-bottom: 0px;
+    margin-top: 3px;
+}
+nav li {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+    margin-left: 20px;
+    background-color: pink;
+    
+}
+nav a {
+    text-decoration: none;
+}
+
+body table th, body table td{
+    padding: 6px 13px;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+}
+
+footer a {
+    color: tomato;
+    text-decoration: none;
+}
+
+.left{
+    float: left;
+    width: 50%;
+    background-color: black;
+    overflow: scroll;
+}
+
+.right{
+    float: right;
+    width: 50%;
+    background-color: black;
+    overflow: scroll;
+}
+
+footer {
+    background-color: blue;
+    padding: 20px;
+    color: white;
+    min-height:100px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer img {
+   width: 100px;
+}
+
+.right li {
+   display:inline-block;
+}
+
+td {
+    padding: 6px 13px;
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: right;
+}
+
+section ol {
+    list-style-type: decimal;
+}
+
+
